@@ -31,7 +31,10 @@ export function App() {
 
                 <main className='flex-1 p-6 flex gap-6'>
                     <div className='flex flex-col flex-1 gap-4'>
-
+                        <div className='grid grid-rows-2 gap-4 flex-1'></div>
+                        <p className='text-sm text-muted-foreground'>
+                            Lembre-se: Você   pode utilizar a variável <code className='font-violet-400'>{'{transcription}'}</code> no seu prompt para acionar o conteúda da transcrição do video selecionado.
+                        </p>
                     </div>
                     <aside className='w-80 '></aside>
 
