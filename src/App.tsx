@@ -4,7 +4,19 @@ export function App() {
 
   return (
     <>
-      <h1>Hellor, world</h1>
+    <div>
+      <div className="px-6 py-3 flex items-center justify-between border-b">
+        <h1 className="text-xl font-bold">Upload.ai</h1>
+
+        <div className="flex items-center gap-3">
+          <span className="text-sm text-muted-foreground">
+            Desenvolvido por EGMJ
+          </span>
+
+          <Button variant={"outline"}>Github</Button>
+        </div>
+      </div>
+    </div>
       <Button>teste</Button>
     </>
   )
