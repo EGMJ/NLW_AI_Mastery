@@ -41,7 +41,7 @@ export function App() {
                                 placeholder='Resultado gerado pela IA...'/>
                         </div>
                         <p className='text-sm text-muted-foreground'>
-                            Lembre-se: Você   pode utilizar a variável <code className='font-violet-400'>{'{transcription}'}</code> no seu prompt para acionar o conteúda da transcrição do video selecionado.
+                            Lembre-se: Você   pode utilizar a variável <code className='text-violet-400'>{'{transcription}'}</code> no seu prompt para acionar o conteúda da transcrição do video selecionado.
                         </p>
                     </div>
                     <aside className='w-80 '></aside>
