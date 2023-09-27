@@ -9,3 +9,8 @@ typescript
 vite
 
 tailwind Css
+
+radiX UI
+shadcnUI
+lucide react
+
